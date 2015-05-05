@@ -235,6 +235,10 @@ describe "When setting colors" do
     colors.fill_color.should == [0.8,1.0,0]
   end
 
+  it "should raise an error for an invalid color (leading # is not allowed)" do
+    expect { @pdf.fill_color "#ccff00" }.to raise_error(ArgumentError)
+  end
+
   it "should reset the colors on each new page if they have been defined" do
     @pdf.fill_color "ccff00"
 
