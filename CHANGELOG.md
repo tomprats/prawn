@@ -1,3 +1,4 @@
+
 ## PrawnPDF master branch
 
 ### Validate colors passed in as strings must be valid hexadecimal
@@ -7,6 +8,8 @@ any colors passed in as a string must be valid hexadecimal or they will
 raise an error.
 
 (Tom Prats, [#807](https://github.com/prawnpdf/prawn/issues/807), [#869](https://github.com/prawnpdf/prawn/issues/869))
+
+## PrawnPDF 2.0.2 -- 2015-07-15
 
 ### Links in repeaters/stamps are now clickable
 
